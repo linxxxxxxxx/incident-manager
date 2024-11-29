@@ -31,7 +31,7 @@
   ```
 - 打开浏览器，访问 http://localhost:3000 查看应用。
 ### 简单界面
-![微信图片_20241129155147](https://github.com/user-attachments/assets/6c7ce03b-61dc-4f8c-b344-905ff0cde2ff)
+![简单界面](https://github.com/user-attachments/assets/9b1ffed7-a40d-4159-8405-69881fcb4c64)
 
 ### 注意事项
 
