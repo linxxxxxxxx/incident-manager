@@ -1,0 +1,53 @@
+/* 整体表格样式 */
+.incident-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse; /* 合并边框 */
+}
+
+/* 表头样式 */
+.incident-table thead th {
+  background-color: #f8f9fa; /* 浅灰色背景 */
+  color: #343a40; /* 深灰色文字 */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 表格主体行的鼠标悬停效果 */
+.incident-table tbody tr:hover {
+  background-color: #e9ecef; /* 悬停时的浅灰色背景 */
+}
+
+/* 操作列按钮样式 */
+.incident-table td button {
+  margin: 0 5px; /* 按钮水平间距 */
+  padding: 0; /* 去除默认内边距 */
+  border: none;
+  background-color: transparent; /* 透明背景 */
+  color: #6c757d; /* 按钮默认颜色 */
+  transition: color 0.3s ease; /* 颜色过渡效果 */
+}
+
+/* 若只想针对特定的表格进行修改，可以使用更具体的类选择器 */
+.my-custom-table.table-bordered {
+  border: 2px solid #003366;
+}
+
+/* 显示表格垂直和水平方向的内边框线 */
+.table-bordered td,
+.table-bordered th {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+ }
+.table-bordered th {
+  border-top: 1px solid #ccc;
+}
+.table-bordered td:last-child,
+.table-bordered th:last-child {
+   border-right: none;
+ }
+
+
+.incident-table td button:hover {
+  color: #dc3545; /* 悬停时按钮变为红色 */
+}
