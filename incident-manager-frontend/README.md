@@ -30,6 +30,8 @@
   npm start
   ```
 - 打开浏览器，访问 http://localhost:3000 查看应用。
+### 简单界面
+![微信图片_20241129155147](https://github.com/user-attachments/assets/6c7ce03b-61dc-4f8c-b344-905ff0cde2ff)
 
 ### 注意事项
 
